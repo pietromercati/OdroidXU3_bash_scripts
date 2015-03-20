@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Author: mdrjr
+# Modified by : Pietro Mercati
+# Note: I am not the original author of this script
+# CREDITS TO http://forum.odroid.com/viewtopic.php?f=61&t=2060
+
+
+
 # enable the sensors
 echo 1 > /sys/bus/i2c/drivers/INA231/4-0045/enable
 echo 1 > /sys/bus/i2c/drivers/INA231/4-0040/enable

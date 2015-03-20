@@ -1,5 +1,6 @@
 #!bin/bash
-
+# Author : Pietro Mercati
+# Description : execute "sh <script>" to sample the current frequency 
 
 while true; do
 
